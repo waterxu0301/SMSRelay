@@ -1,0 +1,12 @@
+# 打包中间产物（可由 src/ 重建，不入库）
+src/dist/
+src/build/
+src/.venv-pack/
+dist/SMSRelay.app/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
